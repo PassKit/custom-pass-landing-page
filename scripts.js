@@ -1,6 +1,8 @@
 $(document).ready(function () {
   var urlParams = new URLSearchParams(window.location.search);
   var id = urlParams.get("id");
+  
+  // if you have a US data instance, chage pub1 to pub2
   var baseURL = "https://pub1.pskt.io/" + id;
 
   $("#ios").click(function () {
